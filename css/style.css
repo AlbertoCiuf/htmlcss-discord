@@ -155,10 +155,18 @@ section.main-content img#mage-voice-connected {
   line-height: 1.5em;
 }
 
-.main-content .section-top, .main-content .section-bottom {
-  text-align: center;
-}
+
 
 #big-videocall {
   width: 100%;
+  float: none;
+}
+
+.box .main-content.bottom h2, .box .main-content.bottom p {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.box .main-content.bottom h2 {
+  font-size: 40px;
 }
