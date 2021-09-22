@@ -120,8 +120,6 @@ header {
 }
 
 /* MAIN */
-
-
 main section:nth-child(even) {
   background-color: #F6F6F6;
 }
@@ -155,4 +153,12 @@ section.main-content img#mage-voice-connected {
 
 .main-content.text p {
   line-height: 1.5em;
+}
+
+.main-content .section-top, .main-content .section-bottom {
+  text-align: center;
+}
+
+.main-content .section-bottom img#big-videocall {
+  width: 100%;
 }
