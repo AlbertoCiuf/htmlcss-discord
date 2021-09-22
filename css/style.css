@@ -118,3 +118,41 @@ header {
 .jumbotron .container .btn.btn_black {
   margin-left: 30px;
 }
+
+/* MAIN */
+
+
+main section:nth-child(even) {
+  background-color: #F6F6F6;
+}
+
+section.main-content img, .main-content.text {
+  float: left;
+}
+
+
+section.main-content img {
+  width: 60%;
+  margin-right: 100px;
+}
+
+section.main-content img#mage-voice-connected {
+  margin-right: 0;
+  margin-left: 100px
+}
+
+.main-content.text {
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.main-content.text h2 {
+  padding-top: 22px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  line-height: 52px
+}
+
+.main-content.text p {
+  line-height: 1.5em;
+}
