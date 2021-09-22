@@ -175,12 +175,13 @@ section.main-content img#mage-voice-connected {
 
 .box .main-content.bottom h2 {
   font-size: 40px;
+  padding-top: 40px;
 }
 
 .slogan {
   text-align: center;
   line-height: 50px;
-  
+  margin-bottom: 20px;
 }
 
 .slogan h3{
@@ -189,4 +190,82 @@ section.main-content img#mage-voice-connected {
   width: 60%;
   height: 65px;
   margin: 20px auto;
+}
+
+/* FOOTER */
+footer {
+  background-color: #23272A;
+  padding-top: 60px;
+}
+
+footer h3 {
+  color: #8EA1E2;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+footer .footer-content {
+  color: #fff;
+}
+
+footer .footer-content ul {
+  list-style: none;
+}
+
+footer .footer-content h3, footer .footer-content ul {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 60px;
+}
+
+.footer-content .footer-left {
+  display: inline-block;
+  width: 40%;
+}
+
+.footer-content .footer-left #ita {
+  width: 5%;
+}
+
+.footer-content .footer-right {
+  width: 60%;
+}
+
+footer .footer-content ul li {
+  line-height: 1.7em;
+}
+
+footer .footer-content ul li:first-child {
+  color: #8EA1E2;
+  font-weight: 800;
+}
+
+footer .footer-content {
+  margin-right: 100px;
+}
+
+footer .footer-content .footer-left i, footer .footer-content .footer-left span {
+  padding: 15px 0;
+}
+
+footer .footer-content .footer-left i.drop-down {
+  font-size: 12px;
+}
+
+footer .footer-content .footer-left i {
+  padding-right: 10px;
+}
+
+.footer-bottom {
+  border-top: 2px solid #8EA1E2;
+}
+
+.footer-bottom .logo img {
+  padding-top: 40px;
+  margin-bottom: 80px;
+}
+
+.footer-bottom .btn.btn_blue {
+  display: inline-block;
+  text-align: right;
 }
