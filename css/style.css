@@ -206,6 +206,7 @@ footer h3 {
 
 footer .footer-content {
   color: #fff;
+  display: inline-block;
 }
 
 footer .footer-content ul {
@@ -220,16 +221,13 @@ footer .footer-content h3, footer .footer-content ul {
 
 .footer-content .footer-left {
   display: inline-block;
-  width: 40%;
+  width: 45%;
 }
 
 .footer-content .footer-left #ita {
   width: 5%;
 }
 
-.footer-content .footer-right {
-  width: 60%;
-}
 
 footer .footer-content ul li {
   line-height: 1.7em;
@@ -266,6 +264,7 @@ footer .footer-content .footer-right ul li a:hover {
 }
 
 .footer-bottom {
+  margin-top: 50px;
   border-top: 2px solid #8EA1E2;
 }
 
