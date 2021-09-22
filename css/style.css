@@ -58,6 +58,7 @@ header {
   vertical-align: middle;
 }
 
+/* NAVBAR MENU */
 .top-menu {
   width: calc(100% - 202px);
   text-align: center;
@@ -67,7 +68,7 @@ header {
   list-style: none;
 }
 
-.top-menu ul li, .logo{
+.top-menu, .logo{
   float: left;
 }
 
