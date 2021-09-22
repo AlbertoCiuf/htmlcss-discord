@@ -120,7 +120,7 @@ header {
 }
 
 /* MAIN */
-main section:nth-child(even) {
+main .box:nth-child(even) {
   background-color: #F6F6F6;
 }
 
@@ -159,6 +159,6 @@ section.main-content img#mage-voice-connected {
   text-align: center;
 }
 
-.main-content .section-bottom img#big-videocall {
+#big-videocall {
   width: 100%;
 }
