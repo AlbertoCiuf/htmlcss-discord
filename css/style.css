@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 20px;
   color: #23272a;
@@ -40,6 +40,11 @@ body{
 .btn.btn_black {
   background-color: #23272A;
   color: white;
+}
+
+.btn.btn_blue {
+  background-color: #8EA1E2;
+  color: #fff;
 }
 
 .btn:hover {
@@ -165,8 +170,23 @@ section.main-content img#mage-voice-connected {
 .box .main-content.bottom h2, .box .main-content.bottom p {
   text-align: center;
   line-height: 1.5em;
+  margin-bottom: 30px;
 }
 
 .box .main-content.bottom h2 {
   font-size: 40px;
+}
+
+.slogan {
+  text-align: center;
+  line-height: 50px;
+  
+}
+
+.slogan h3{
+  background-image: url('../img/stars.svg');
+  background-size: cover;
+  width: 60%;
+  height: 65px;
+  margin: 20px auto;
 }
