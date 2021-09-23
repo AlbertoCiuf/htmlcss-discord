@@ -51,6 +51,19 @@ body {
   color: cornflowerblue;
 }
 
+/* .wave img{
+  filter: invert(100%);
+  
+}
+
+.wave.rotate img {
+  transform: rotate(180deg);
+}
+
+.wave {
+  background-color: #f6f6f6;
+} */
+
 
 /* HEADER */
 header {
